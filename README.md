@@ -89,10 +89,10 @@ The **MDN Web Docs** (Mozilla) is the definitive free documentation for HTML, CS
 
 Free official docs and tutorials exist for popular frameworks: React, Angular, Vue, etc. For example, React's documentation is open and beginner-friendly. Likewise, tutorials on Bootstrap, Tailwind CSS, or Materialize (CSS frameworks) are free online and teach responsive design.
 
-**Popular Frameworks:**
+# Popular Frameworks
 
 | Framework | Official Docs | Type |
-|--|--||
+|-----------|---------------|------|
 | [React](https://reactjs.org/) | Beginner-friendly | Frontend Library |
 | [Angular](https://angular.io/) | Comprehensive guides | Frontend Framework |
 | [Vue.js](https://vuejs.org/) | Progressive framework | Frontend Framework |
