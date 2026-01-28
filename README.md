@@ -13,6 +13,7 @@ A curated guide covering free online resources across programming, AI/ML, game a
 - [Machine Learning & Artificial Intelligence](#machine-learning--artificial-intelligence)
 - [Data Science & Analytics](#data-science--analytics)
 - [DevOps, Cloud & Infrastructure](#devops-cloud--infrastructure)
+- [Web3 & Defi](#web3--defi)
 - [Software Engineering Practices & Design](#software-engineering-practices--design)
 - [UI/UX and Graphic Design](#uiux-and-graphic-design)
 - [Projects and Hands-On Practice](#projects-and-hands-on-practice)
@@ -383,6 +384,46 @@ Tools like **Terraform** and **Ansible** are open-source and well-documented for
 
 Many cloud courses include hands-on labs. Free services like AWS, GCP, and Azure provide always-free tiers (limited VMs, storage, etc) for experimentation. Practice building a small server or deploying a containerized app using free tiers.
 
+## Web3 & DeFi 
+*(Web3 section to be updated)*
+
+### Decentralized Finance (DeFi)
+
+**DeFi (Decentralized Finance)** is a set of financial systems built on public blockchains that use **smart contracts instead of intermediaries** to enable lending, trading, and yield generation.
+
+**Why it matters:** DeFi enables permissionless, transparent, and programmable finance at a global scale.It is highly recommended to read the whitepapers of these protocols.
+
+### Key DeFi Protocols
+
+**Lending / Borrowing**
+
+* **Aave** – [https://aave.com/](https://aave.com/)
+  One of the largest DeFi lending protocols enabling overcollateralized borrowing, variable/fixed interest rates, and flash loans.
+* **Euler** – [https://www.euler.finance/](https://www.euler.finance/)
+  A permissionless lending protocol focused on capital efficiency and isolated risk markets.
+* **Morpho** – [https://morpho.org/](https://morpho.org/)
+  A peer-to-peer optimization layer built on top of lending protocols to improve rates and efficiency.
+
+**Decentralized Exchanges (AMMs)**
+
+* **Uniswap V3/V1** – [https://uniswap.org/](https://uniswap.org/)
+  A capital-efficient AMM with concentrated liquidity and customizable price ranges.
+* **Curve Finance** – [https://curve.fi/](https://curve.fi/)
+  An AMM optimized for stablecoins and correlated assets, offering low slippage trades.
+
+**Yield & Fixed Income**
+
+* **Pendle Finance** – [https://www.pendle.finance/](https://www.pendle.finance/)
+  A protocol that allows tokenization and trading of future yield, introducing fixed-income primitives to DeFi.
+
+**Other Important Protocols**
+
+* **MakerDAO** – [https://makerdao.com/](https://makerdao.com/)
+  The protocol behind DAI, a decentralized stablecoin backed by crypto collateral.
+* **Lido** – [https://lido.fi/](https://lido.fi/)
+  A liquid staking protocol that lets users stake assets while retaining liquidity.
+* **Balancer** – [https://balancer.fi/](https://balancer.fi/)
+  A flexible AMM enabling weighted pools and automated portfolio management.
 
 
 ## Software Engineering Practices & Design
