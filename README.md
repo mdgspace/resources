@@ -12,7 +12,6 @@ A curated guide covering free online resources across programming, AI/ML, game a
 - [Game Development](#game-development)
 - [Machine Learning & Artificial Intelligence](#machine-learning--artificial-intelligence)
 - [Data Science & Analytics](#data-science--analytics)
-- [Web3](#web3--blockchain-development)
 - [DevOps, Cloud & Infrastructure](#devops-cloud--infrastructure)
 - [Web3 & Defi](#web3--defi)
 - [Software Engineering Practices & Design](#software-engineering-practices--design)
@@ -332,8 +331,58 @@ Several platforms offer free data science tracks: Coursera's audit mode (e.g. Jo
 - [StatQuest](https://www.youtube.com/c/joshstarmer)
 - [Sentdex](https://www.youtube.com/c/sentdex)
 
-## Web3 & Blockchain Development
+## DevOps, Cloud & Infrastructure
 
+### Cloud Training (Free Tiers)
+
+Major cloud providers offer free training and accounts:
+
+#### AWS
+
+The **AWS Skill Builder** portal has 600+ free digital courses on cloud fundamentals, architecture, ML, etc. (AWS Educate also gives students free credits.)
+
+**AWS Resources:**
+- [AWS Skill Builder](https://aws.amazon.com/training/) - 600+ free courses
+- AWS Educate - Student credits
+
+#### Google Cloud
+
+Google offers free Qwiklabs credits and the Google Cloud Training platform with free labs on GCP services.
+
+**Google Cloud Resources:**
+- Free Qwiklabs credits
+- Google Cloud Training platform
+
+#### Microsoft Azure
+
+**Microsoft Learn** provides numerous free modules on Azure and cloud concepts.
+
+**Azure Resources:**
+- [Microsoft Learn](https://docs.microsoft.com/learn/) - Free Azure modules
+
+### DevOps Tools
+
+Free tools include **Docker** (for containerization) and **Kubernetes** (open source orchestration). Tutorials and documentation for both are freely available (Docker docs, Kubernetes docs). **GitHub Actions** and **GitLab CI** offer free tiers for CI/CD pipelines.
+
+**DevOps Tools:**
+- [Docker](https://www.docker.com/) - Containerization
+- [Kubernetes](https://kubernetes.io/) - Container orchestration
+- [GitHub Actions](https://github.com/features/actions) - CI/CD
+- [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) - CI/CD
+
+### Infrastructure-as-Code
+
+Tools like **Terraform** and **Ansible** are open-source and well-documented for managing cloud infrastructure. Learning their basics via free docs or YouTube tutorials helps understand modern DevOps.
+
+**IaC Tools:**
+- [Terraform](https://www.terraform.io/) - Infrastructure as code
+- [Ansible](https://www.ansible.com/) - Automation platform
+
+### Practice Labs
+
+Many cloud courses include hands-on labs. Free services like AWS, GCP, and Azure provide always-free tiers (limited VMs, storage, etc) for experimentation. Practice building a small server or deploying a containerized app using free tiers.
+
+## Web3 & DeFi 
 ### Core Blockchain Fundamentals
 
 Understanding blockchain fundamentals gives you stronger intuition when building, debugging, and designing decentralized systems. While it’s possible to start building quickly, these concepts form the mental model behind why blockchains behave the way they do.
@@ -395,26 +444,23 @@ Smart contracts are programs deployed on blockchains that execute deterministica
 
 Modern Web3 development relies heavily on local development frameworks for compiling, testing, and deploying smart contracts.
 
-#### Foundry
+- #### Foundry
 
 A fast, Rust-based Ethereum development toolkit designed for serious smart contract development.
 
-**Docs:**\
-[https://book.getfoundry.sh/](https://book.getfoundry.sh/)
+**Docs:** [https://book.getfoundry.sh/](https://book.getfoundry.sh/)
 
-#### Hardhat
+- #### Hardhat
 
 A JavaScript/TypeScript-based Ethereum development environment.
 
-**Docs:**\
-[https://hardhat.org/docs](https://hardhat.org/docs)
+**Docs:** [https://hardhat.org/docs](https://hardhat.org/docs)
 
-#### Remix IDE
+- #### Remix IDE
 
 A browser-based Solidity IDE that runs entirely in the browser.
 
-**Docs:**\
-[https://remix-ide.readthedocs.io/](https://remix-ide.readthedocs.io/)
+**Docs:** [https://remix-ide.readthedocs.io/](https://remix-ide.readthedocs.io/)
 
 ### Frontend Libraries for dApps
 
@@ -438,68 +484,7 @@ Decentralized applications combine smart contracts with traditional frontends. T
 
 - **Web3Modal** – Multi-wallet connection modal\
   [https://web3modal.com/](https://web3modal.com/)
-
-#### What These Enable
-
-- Wallet connections (MetaMask, WalletConnect)
-- Reading on-chain data
-- Sending transactions
-- Handling confirmations and reverts
-- Listening to contract events
-
-## DevOps, Cloud & Infrastructure
-
-### Cloud Training (Free Tiers)
-
-Major cloud providers offer free training and accounts:
-
-#### AWS
-
-The **AWS Skill Builder** portal has 600+ free digital courses on cloud fundamentals, architecture, ML, etc. (AWS Educate also gives students free credits.)
-
-**AWS Resources:**
-- [AWS Skill Builder](https://aws.amazon.com/training/) - 600+ free courses
-- AWS Educate - Student credits
-
-#### Google Cloud
-
-Google offers free Qwiklabs credits and the Google Cloud Training platform with free labs on GCP services.
-
-**Google Cloud Resources:**
-- Free Qwiklabs credits
-- Google Cloud Training platform
-
-#### Microsoft Azure
-
-**Microsoft Learn** provides numerous free modules on Azure and cloud concepts.
-
-**Azure Resources:**
-- [Microsoft Learn](https://docs.microsoft.com/learn/) - Free Azure modules
-
-### DevOps Tools
-
-Free tools include **Docker** (for containerization) and **Kubernetes** (open source orchestration). Tutorials and documentation for both are freely available (Docker docs, Kubernetes docs). **GitHub Actions** and **GitLab CI** offer free tiers for CI/CD pipelines.
-
-**DevOps Tools:**
-- [Docker](https://www.docker.com/) - Containerization
-- [Kubernetes](https://kubernetes.io/) - Container orchestration
-- [GitHub Actions](https://github.com/features/actions) - CI/CD
-- [GitLab CI](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) - CI/CD
-
-### Infrastructure-as-Code
-
-Tools like **Terraform** and **Ansible** are open-source and well-documented for managing cloud infrastructure. Learning their basics via free docs or YouTube tutorials helps understand modern DevOps.
-
-**IaC Tools:**
-- [Terraform](https://www.terraform.io/) - Infrastructure as code
-- [Ansible](https://www.ansible.com/) - Automation platform
-
-### Practice Labs
-
-Many cloud courses include hands-on labs. Free services like AWS, GCP, and Azure provide always-free tiers (limited VMs, storage, etc) for experimentation. Practice building a small server or deploying a containerized app using free tiers.
-
-## Web3 & DeFi 
-*(Web3 section to be updated)*
+  
 
 ### Decentralized Finance (DeFi)
 
