@@ -12,7 +12,7 @@ A curated guide covering free online resources across programming, AI/ML, game a
 - [Game Development](#game-development)
 - [Machine Learning & Artificial Intelligence](#machine-learning--artificial-intelligence)
 - [Data Science & Analytics](#data-science--analytics)
-- [Web3 and Blockchain Development](#web3--blockchain-development)
+- [Web3](#web3--blockchain-development)
 - [DevOps, Cloud & Infrastructure](#devops-cloud--infrastructure)
 - [Software Engineering Practices & Design](#software-engineering-practices--design)
 - [UI/UX and Graphic Design](#uiux-and-graphic-design)
@@ -396,42 +396,21 @@ Modern Web3 development relies heavily on local development frameworks for compi
 
 #### Foundry
 
-A fast, Rust-based Ethereum development toolkit designed for serious smart contract development. Foundry emphasizes speed, correctness, and low-level control, and is widely used in protocol and infra teams.
-
-**Best for:**
-
-- Protocol development and core smart contract engineering
-- Advanced testing (fuzzing, invariants)
-- Gas optimization–sensitive applications
-- Developers comfortable with lower-level tooling
+A fast, Rust-based Ethereum development toolkit designed for serious smart contract development.
 
 **Docs:**\
 [https://book.getfoundry.sh/](https://book.getfoundry.sh/)
 
 #### Hardhat
 
-A JavaScript/TypeScript-based Ethereum development environment with a large ecosystem of plugins. Hardhat is the most commonly used framework for production dApps and integrates smoothly with frontend tooling.
-
-**Best for:**
-
-- Beginner to intermediate developers
-- Full-stack dApp development
-- Teams building production applications
-- Projects requiring strong frontend integration
+A JavaScript/TypeScript-based Ethereum development environment.
 
 **Docs:**\
 [https://hardhat.org/docs](https://hardhat.org/docs)
 
 #### Remix IDE
 
-A browser-based Solidity IDE that runs entirely in the browser. Remix requires no local setup and is ideal for learning, experimentation, and rapid iteration.
-
-**Best for:**
-
-- Learning Solidity fundamentals
-- Quick prototyping and experiments
-- Teaching and workshops
-- Reviewing or demonstrating contracts
+A browser-based Solidity IDE that runs entirely in the browser.
 
 **Docs:**\
 [https://remix-ide.readthedocs.io/](https://remix-ide.readthedocs.io/)
