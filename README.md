@@ -12,6 +12,7 @@ A curated guide covering free online resources across programming, AI/ML, game a
 - [Game Development](#game-development)
 - [Machine Learning & Artificial Intelligence](#machine-learning--artificial-intelligence)
 - [Data Science & Analytics](#data-science--analytics)
+- [Web3](#web3--blockchain-development)
 - [DevOps, Cloud & Infrastructure](#devops-cloud--infrastructure)
 - [Web3 & Defi](#web3--defi)
 - [Software Engineering Practices & Design](#software-engineering-practices--design)
@@ -331,7 +332,120 @@ Several platforms offer free data science tracks: Coursera's audit mode (e.g. Jo
 - [StatQuest](https://www.youtube.com/c/joshstarmer)
 - [Sentdex](https://www.youtube.com/c/sentdex)
 
+## Web3 & Blockchain Development
 
+### Core Blockchain Fundamentals
+
+Understanding blockchain fundamentals gives you stronger intuition when building, debugging, and designing decentralized systems. While it’s possible to start building quickly, these concepts form the mental model behind why blockchains behave the way they do.
+
+#### Concepts You Should Aim to Understand
+
+- Consensus mechanisms (PoW, PoS)
+- Transactions, blocks and transaction finality
+- Public/private key cryptography
+- Merkle trees
+- Cryptographic hash functions
+- Gas fees and economic incentives
+- Trust minimization and permissionless systems
+
+#### Learning Resources
+
+- Blockchain fundamentals: [Patrick Collins](https://www.youtube.com/watch?v=umepbfKp5rI)
+- [Blockchain and Money](https://www.youtube.com/playlist?list=PLUl4u3cNGP63UUkfL0onkxF6MYgVa04Fn): Course on Blockchain fundamentals and workings by MIT, can watch upto lecture 11 or 12.\
+  
+- [**Grokking Bitcoin**](https://grokkingbitcoin.com/) – A practical, bottom-up explanation of Bitcoin and blockchain internals\
+  
+- **Bitcoin Whitepaper** – Satoshi Nakamoto\
+  [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
+- **Ethereum Whitepaper** – Vitalik Buterin\
+  [https://ethereum.org/en/whitepaper/](https://ethereum.org/en/whitepaper/)
+- **3Blue1Brown – Cryptography & Math Videos**\
+  Intuitive visual explanations of cryptographic primitives used in blockchains\
+  [https://www.youtube.com/c/3blue1brown](https://www.youtube.com/c/3blue1brown)
+
+### Smart Contracts & Blockchain Programming
+
+Smart contracts are programs deployed on blockchains that execute deterministically. Most modern dApps are built on Ethereum or Ethereum-compatible chains using Solidity.
+
+#### Core Languages & Platforms
+
+- **Solidity** – Primary language for Ethereum and EVM-compatible chains\
+  [https://docs.soliditylang.org/](https://docs.soliditylang.org/)
+
+- **Ethereum Developer Documentation** – Official end-to-end Web3 learning resources\
+  [https://ethereum.org/en/developers/](https://ethereum.org/en/developers/)
+
+#### Interactive & Guided Learning
+
+- **CryptoZombies** – Beginner-friendly interactive Solidity course\
+  [https://cryptozombies.io/](https://cryptozombies.io/)
+
+- **OpenZeppelin Learn** – Secure smart contract patterns and standards\
+  [https://docs.openzeppelin.com/learn/](https://docs.openzeppelin.com/learn/)
+
+- **Ethernaut** – Smart contract security challenges by OpenZeppelin, Practice these to get an understanding of smart contract security.\
+  [https://ethernaut.openzeppelin.com/](https://ethernaut.openzeppelin.com/)
+
+#### Video Learning
+
+- **Patrick Collins (YouTube)** – Deep, practical smart contract and Web3 engineering tutorials\
+  [https://www.youtube.com/@PatrickAlphaC](https://www.youtube.com/@PatrickAlphaC)
+
+### Development Frameworks & Tooling
+
+Modern Web3 development relies heavily on local development frameworks for compiling, testing, and deploying smart contracts.
+
+#### Foundry
+
+A fast, Rust-based Ethereum development toolkit designed for serious smart contract development.
+
+**Docs:**\
+[https://book.getfoundry.sh/](https://book.getfoundry.sh/)
+
+#### Hardhat
+
+A JavaScript/TypeScript-based Ethereum development environment.
+
+**Docs:**\
+[https://hardhat.org/docs](https://hardhat.org/docs)
+
+#### Remix IDE
+
+A browser-based Solidity IDE that runs entirely in the browser.
+
+**Docs:**\
+[https://remix-ide.readthedocs.io/](https://remix-ide.readthedocs.io/)
+
+### Frontend Libraries for dApps
+
+Decentralized applications combine smart contracts with traditional frontends. These libraries help connect wallets, read blockchain state, and send transactions.
+
+#### Core Libraries
+
+- **ethers.js** – Lightweight Ethereum RPC library\
+  [https://docs.ethers.org/](https://docs.ethers.org/)
+
+- **web3.js** – Legacy Ethereum JavaScript library\
+  [https://web3js.readthedocs.io/](https://web3js.readthedocs.io/)
+
+#### React-Focused Tooling
+
+- **wagmi** – React hooks for Ethereum\
+  [https://wagmi.sh/](https://wagmi.sh/)
+
+- **RainbowKit** – Wallet connection UI for React apps\
+  [https://www.rainbowkit.com/](https://www.rainbowkit.com/)
+
+- **Web3Modal** – Multi-wallet connection modal\
+  [https://web3modal.com/](https://web3modal.com/)
+
+#### What These Enable
+
+- Wallet connections (MetaMask, WalletConnect)
+- Reading on-chain data
+- Sending transactions
+- Handling confirmations and reverts
+- Listening to contract events
 
 ## DevOps, Cloud & Infrastructure
 
